@@ -6,7 +6,10 @@ Predicting national Human Development Index (HDI) for **168 countries from 2022�
 ![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange)
 ![R²](https://img.shields.io/badge/R²-0.9849-green)
 ![Streamlit](https://img.shields.io/badge/App-Streamlit-red)
+![AWS](https://img.shields.io/badge/Deployed-AWS%20EC2-orange)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+🚀 **[Live Demo → http://3.143.240.164:8501](http://3.143.240.164:8501)**
 
 ---
 
@@ -62,6 +65,7 @@ HumanDevForecaster/
 │   └── dashboard_forecasts.csv
 ├── sql/                    # SQL scripts for data ingestion
 ├── HumanDevForecaster.pbix # Power BI dashboard
+├── requirements.txt
 ├── .gitignore
 └── README.md
 ```
@@ -100,11 +104,12 @@ HumanDevForecaster/
 - Page 1: Global forecast map, Top 10 bar chart, KPI cards
 - Page 2: Country deep dive with HDI trend line (1990–2026)
 
-### Phase 7 — Streamlit App
+### Phase 7 — Streamlit App + AWS Deployment
 - Interactive country selector with KPI metrics
 - HDI trend & forecast chart (Plotly)
 - Feature importance visualization
 - Key indicator summary panel
+- Deployed on AWS EC2 (t3.micro, Ubuntu 24.04)
 
 ---
 
